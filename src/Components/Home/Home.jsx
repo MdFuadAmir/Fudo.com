@@ -1,9 +1,10 @@
+import Whyfudo from "../Whyfudo/Whyfudo";
 
 
 const Home = () => {
     return (
         <div className="">
-            Home
+            <Whyfudo/>
         </div>
     );
 };

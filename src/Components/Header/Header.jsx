@@ -67,7 +67,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button className="btn rounded-full px-8 bg-red-400 text-white hover:bg-red-500">Login <CiLogin size={20}/></button>
+    <button className="btn rounded-full px-8 bg-red-500 text-white hover:bg-red-400">Login <CiLogin size={20}/></button>
   </div>
 </div>
        </>
