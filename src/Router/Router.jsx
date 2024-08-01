@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from "../Root/Root";
 import Home from "../Components/Home/Home";
 import Whyfudo from "../Components/Whyfudo/Whyfudo";
+import Services from "../Components/Services/Services";
 
 const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
             {
                 path:"/whyfudo",
                 element:<Whyfudo/>
+            },
+            {
+                path:"/services",
+                element:<Services/>
             }
         ]
     }
