@@ -6,7 +6,7 @@ const Whyfudo = () => {
         <div className="bg-gradient-to-b from-red-200 to-white py-12">
             <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-4 max-w-6xl mx-auto px-4">
                 <div className="w-full md:w-1/2">
-                    <div className="flex justify-center items-center gap-4 bg-red-200 px-6 py-1 rounded-full w-fit mb-6">
+                    <div className="flex justify-center items-center gap-4 bg-red-300 px-6 py-1 rounded-full w-fit mb-6">
                         <p className="text-xl text-red-500">More than Faster</p>
                         <img src={bike} alt="" className="w-[30px] h-[30px]"/>
                     </div>

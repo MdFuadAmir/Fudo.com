@@ -3,6 +3,7 @@ import Root from "../Root/Root";
 import Home from "../Components/Home/Home";
 import Whyfudo from "../Components/Whyfudo/Whyfudo";
 import Services from "../Components/Services/Services";
+import Menu from "../Components/Menu/Menu";
 
 const router = createBrowserRouter([
     {
@@ -20,7 +21,11 @@ const router = createBrowserRouter([
             {
                 path:"/services",
                 element:<Services/>
-            }
+            },
+            {
+                path:"/menu",
+                element:<Menu/>
+            },
         ]
     }
 
