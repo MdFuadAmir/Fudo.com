@@ -1,3 +1,4 @@
+import AboutUs from "../AboutUs/AboutUs";
 import Menu from "../Menu/Menu";
 import Services from "../Services/Services";
 import Whyfudo from "../Whyfudo/Whyfudo";
@@ -9,6 +10,7 @@ const Home = () => {
             <Whyfudo/>
             <Services/>
             <Menu/>
+            <AboutUs/>
         </div>
     );
 };
