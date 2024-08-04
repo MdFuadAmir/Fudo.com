@@ -53,11 +53,11 @@ const Menu = () => {
 
             </div>
             {/* currusol */}
-            <div className="carousel carousel-center rounded-box space-x-4 p-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {
-                datas.map((data) => <div key={data.id} className="carousel-item">
+                datas.map((data) => <div key={data.id} className="border rounded-lg border-red-400 hover:bg-red-300 hover:text-white duration-300">
                     <div className="space-y-2">
-                        <img src={data.img} alt="" className="w-[300px] h-[300px] rounded-xl"/>
+                        <img src={data.img} alt="" className=" w-full h-[350px]"/>
                         <div className="space-y-2 px-4">
                         <div className="">
                         <h1 className="text-2xl font-bold">{data.name}</h1>

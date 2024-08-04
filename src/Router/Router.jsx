@@ -4,6 +4,7 @@ import Home from "../Components/Home/Home";
 import Whyfudo from "../Components/Whyfudo/Whyfudo";
 import Services from "../Components/Services/Services";
 import Menu from "../Components/Menu/Menu";
+import Contact from "../Components/Comtact/Contact";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path:"/menu",
                 element:<Menu/>
+            },
+            {
+                path:"/contact",
+                element:<Contact/>
             },
         ]
     }
