@@ -16,7 +16,6 @@ const Contact = () => {
                 <img src={imagr} alt="" />
                 </div>
             </div>
-            
         </div>
         </div>
     );
